@@ -1,0 +1,34 @@
+{
+  "name": "codeninja",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/cli-platform-android": "^2.9.0",
+    "@react-native-community/masked-view": "^0.1.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "^0.64.2",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-web": "^0.17.1",
+    "react-navigation": "^4.1.0",
+    "react-navigation-stack": "^2.0.16"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "metro-react-native-babel-preset": "^0.63.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
